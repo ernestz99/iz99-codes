@@ -1,0 +1,5 @@
+This is a simple calculator program written in Python using the Tkinter library. The program provides a graphical user interface (GUI) that allows users to perform basic arithmetic calculations such as addition, subtraction, multiplication, and division.
+
+Users simply click on the buttons to input numbers and select the operation they want to perform. The program then displays the result of the calculation in the input field.
+
+Overall, this calculator program is a simple and useful tool for performing basic arithmetic calculations, and can be a great resource for beginners who are just learning Python or programming in general.

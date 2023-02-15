@@ -1,0 +1,17 @@
+The program is designed to manage student data and examination results. 
+It allows students to check their results and view their data, while the admin can create, edit, and delete student data, as well as view the results. 
+Using Python and Tkinter library for GUI creation, and MySQL database
+
+Login and Sign-up pages:
+The program has a login page for users who have already registered and a sign-up page for new users. The login and sign-up pages have data validation and error handling processes to ensure the data entered is correct and secure. The program also uses encryption techniques to protect user data.
+
+Forget password page:
+The program also has a forget password page that allows users to recover their forgotten password. The password reset process is secure and uses encryption to protect user data.
+
+
+Student homepage:
+The student homepage allows students to check their results by entering their examination number. The homepage also displays the student's data, total overall score, and overall percentage. The program has security measures in place to protect student data.
+
+Admin page:
+The admin page is a crucial part of the program, where the admin can view student data, create, edit, and delete student data, and view the results. The admin page has features for data management and manipulation, and the program has taken security measures to protect sensitive student information.
+

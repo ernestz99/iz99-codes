@@ -1,0 +1,2 @@
+The program is a basic age calculator using Python and the Tkinter library for GUI creation. It allows the user to input their birthdate and the current date, and then calculates and displays the user's age in years.
+

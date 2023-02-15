@@ -1,0 +1,4 @@
+The number guessing game is a classic game where the player tries to guess a randomly generated number within a certain range. 
+The game provides feedback to the player in the form of messages indicating whether the guess is too high, too low, or correct. 
+The goal is to guess the number in as few attempts as possible.
+This code uses tkinter, which is a Python library for creating GUI (Graphical User Interface) applications

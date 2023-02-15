@@ -1,0 +1,19 @@
+ 	DISCOUNT STORE
+This project is a program for a store that displays their products and prices to customers, and provides a 15% discount on selected products. The program begins by displaying a list of products and their prices. 
+The customer can then select one of the products and the program calculates the 15% discount on the selected product. The final price with the discount is displayed to the customer.
+
+"console sales.py"runs on a console screen 
+
+"gui sales.py"uses tkinter, which is a Python library for creating GUI (Graphical User Interface) applications 
+
+
+
+ 	CUSTOMER CARE SERVICE
+The program provides a comprehensive and efficient customer service experience for customers, making it easier for them to get the information they need. It features four key options for customers to choose from - Call Us, Chat Us, Send Us an Email, and FAQ.
+The Call Us option allows customers to directly speak with a customer service representative over the phone.
+The Chat Us option allows customers to have a live chat session with a customer service representative. The Send Us an Email option enables customers to send an email to the customer service team, which will be promptly responded to. Finally, the FAQ section provides answers to frequently asked questions, allowing customers to quickly find the information they need without having to contact customer service.
+
+"console ccare.py"runs on a console screen 
+
+"gui CCare.py"uses tkinter, which is a Python library for creating GUI (Graphical User Interface) applications 
+

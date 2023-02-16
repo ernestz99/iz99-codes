@@ -34,12 +34,12 @@ def sign_up():
     import signup_page
 
 def hide():
-    closeye.config(file='closeye.png')
+    closeye.config(file='EXAM RESULT DATABASE/closeye.png')
     passE.config(show='*')
     eyeB.config(command=show)
 
 def show():
-    closeye.config(file='openeye.png')
+    closeye.config(file='EXAM RESULT DATABASE/openeye.png')
     passE.config(show='') 
     eyeB.config(command=hide)
 
@@ -56,7 +56,7 @@ win.geometry("990x660")
 win.resizable(0,0)
 win.title("Login Page")
 
-bgImage=ImageTk.PhotoImage(file='bg.jpg')
+bgImage=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/bg.jpg')
 
 bgLabel=Label(win, image=bgImage)
 bgLabel.place (x=0,y=0)
@@ -75,7 +75,7 @@ passE.place(x=578, y=260)
 passE.insert(0,"Password")
 passE.bind('<FocusIn>', pass_enter)
 passF=Frame(win, width=250, height=2, bg="firebrick1").place(x=578, y=282,)
-closeye=PhotoImage(file='closeye.png')
+closeye=PhotoImage(file='EXAM RESULT DATABASE/closeye.png')
 eyeB=Button(win, image=closeye, bd=0, bg="White", activebackground="White",cursor="hand2", command=show)
 eyeB.place(x=800, y=250)
 passE.config(show='*')
@@ -95,15 +95,15 @@ orL=Label(win, text="----------------------- OR -----------------------", font=(
             fg="firebrick1", bg="White")
 orL.place(x=575, y=410)
 
-fb=PhotoImage(file='facebook.png')
+fb=PhotoImage(file='EXAM RESULT DATABASE/facebook.png')
 fbL=Label(win, image=fb, bg="white")
 fbL.place(x=640, y=440)
 
-google=PhotoImage(file='google.png')
+google=PhotoImage(file='EXAM RESULT DATABASE/google.png')
 gL=Label(win, image=google, bg="white")
 gL.place(x=700, y=440)
 
-twitter=PhotoImage(file='twitter.png')
+twitter=PhotoImage(file='EXAM RESULT DATABASE/twitter.png')
 tL=Label(win, image=twitter, bg="white")
 tL.place(x=760, y=440)
 

@@ -53,7 +53,7 @@ def login_page():
 win=Tk()
 win.title('Sign Up Page')
 win.resizable(0,0)
-bg=ImageTk.PhotoImage(file='bg.jpg')
+bg=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/bg.jpg')
 
 bgL=Label(win, image=bg).grid ()
 

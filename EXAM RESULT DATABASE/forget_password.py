@@ -32,7 +32,7 @@ def submit():
 win=Tk()
 win.title('Forget Password Page')
 win.resizable(0,0)
-bg=ImageTk.PhotoImage(file='background.jpg')
+bg=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/background.jpg')
 
 bgL=Label(win, image=bg).grid ()
 

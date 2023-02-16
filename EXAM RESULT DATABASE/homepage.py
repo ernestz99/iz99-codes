@@ -81,7 +81,7 @@ def submit():
             wrapper3.pack(fill='both', expand='yes', padx=20, pady=10)
 
             #wrapper1
-            w1Image=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/logo.png')
+            w1Image=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/images/logo.png')
             lbl = Label(wrapper1, image=w1Image, bd=0, bg='white')
             lbl.grid(row=0, column=0, padx=20, pady=3)
 
@@ -127,18 +127,18 @@ def submit():
             trv1.heading(5, text='PHP')
             show(info)
 
-            w3Image=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/bulb.png')
+            w3Image=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/images/bulb.png')
             lbl1 = Label(wrapper3, image=w3Image, bd=0, background='white')
             lbl1.place(x=460,y=120)
             btn = Button(wrapper3, text='Calculate Total Score & Percentage', font=('bold'), command=check, bd=1, bg='dodgerblue', 
                         fg='white', activebackground='dodgerblue', activeforeground='white')
             btn.place(x=360,y=190)
 
-            log=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/log.png')
+            log=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/images/log.png')
             but2 = Button(wrapper3, image=log, bd=0, background='white', activebackground='white', command=home)
             but2.place(x=20,y=430)
 
-            exi=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/exit.png')
+            exi=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/images/exit.png')
             but3 = Button(wrapper3, image=exi, bd=0, background='white', activebackground='white', command=login)
             but3.place(x=900,y=430)
 
@@ -153,10 +153,10 @@ win.title("Homepage")
 win.geometry("1280x700")
 win.config(bg="White")
 win.resizable(0,0)
-bgImage=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/pic1.jpg')
+bgImage=ImageTk.PhotoImage(file='EXAM RESULT DATABASE/images/pic1.jpg')
 bgL=Label(win, image=bgImage).grid()
 
-icon=PhotoImage(file="EXAM RESULT DATABASE/student.png")
+icon=PhotoImage(file="EXAM RESULT DATABASE/images/student.png")
 bgI=Label(win, image=icon,bd=0,bg='white').place(x=605, y=200)
 bgE=Entry(win, bd=0, bg='white', fg='purple', font=('verdana', 12, 'bold'), width=20)
 bgE.place(x=561, y=360)
@@ -164,7 +164,7 @@ bgE.insert(0,"    Examination number")
 bgE.bind('<FocusIn>', num_enter)
 bgF=Frame(win, width=235, height=2, bg="purple").place(x=558, y=380)
 
-send=PhotoImage(file="EXAM RESULT DATABASE/submit1.png")
+send=PhotoImage(file="EXAM RESULT DATABASE/images/submit1.png")
 
 bgB=Button(win,image=send,bd=0,bg='white', 
                 activebackground='white', cursor='hand2', command=submit)
